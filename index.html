@@ -6,26 +6,63 @@
   <title>Find My Butcher v.2</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Permanent+Marker&family=Roboto&display=swap" rel="stylesheet">
 </head>
-<body>
-  <nav>
-    <ul class="menu">
-      <li class="logo"><a href=#>Find My Butcher</a></li>
-      <li class="item"><a href=#>Find a Butcher</a></li>
-      <li class="item"><a href=#>Butcher Cuts</a></li>
-      <li class="item"><a href=#>Recipes</a></li>
-      <li class="item button"><a href=#>Login</a></li>
-      <li class="item button secondary"><a href=#>Sign Up</a></li>
-      <li class="toggle">
-        <span class="bars"></span>
-      </li>
-    </ul>
 
-  </nav>
+<body>	
+	<header>
+		<nav>
+			<h1>
+        Find My Butcher
+      </h1>
+			<div class="menu">
+				<a href="#">Find a Butcher</a>
+				<a href="#">Butcher Cuts</a>
+				<a href="#">Recipes</a>
+				<a href="#">Get Inspired</a>
+        <div class="signup">
+          <a href="#"><button class="button-29" role="button">Sign Up</button></a> 
+       </div>
+       <a href="#">Login</a>
+			</div>
+			<button class="hamburger">
+				<span class="material-icons">menu</span>
+			</button>
+		</nav>
+		<div class="mobile-menu">
+      <a href="#">Find a Butcher</a>
+			<a href="#">Butcher Cuts</a>
+			<a href="#">Recipes</a>
+			<a href="#">Get Inspired</a>
+		</div>
+	</header>
 
- <script type="text/javascript" src="main.js"></script>
+  <main>
+    <section class="hero-container">
+      <div class="search-container">
+        <h2>
+          Discover Local<br><span class="color-red">BUTCHERS</span>
+        </h2>
+        <form action="https://www.google.com/search" methods="get" class="search-bar">
+          <input type="text" placeholder="City,State" name="q">
+          <button type="submit"> <img src="images/searchicon.png"></button>
+        </form>
+      </div>
+    </section>
+    
+
+
+
+
+
+
+
+  </main> 
+
+	<script src="main.js"></script>
 </body>
 </html>
+

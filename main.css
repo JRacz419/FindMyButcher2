@@ -2,10 +2,11 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+  
 }
 
 body {
-	background-color: #eee;
+	background-color: black;
 }
 
 /* Nav Bar*/
@@ -27,7 +28,7 @@ nav h1 {
 	padding-right: calc(1rem - 5px);
     color: red;
     display: inline;
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Black Ops One', system-ui;
     font-weight: lighter;
 }
@@ -174,37 +175,11 @@ nav h1:hover {
 
 /*Main*/
 
-.hero-container {
-    height:500px;
-    border: 1px solid white;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
+main {
+
 }
 
-.color-red {
-    color:red;
-}
-
-
-h2 {
-    font-size: 75px;
-    text-align: center;
-    height:160px;
-    color: white;
-    margin-top: 80px;
-    padding: 10px;
-  }
-
-  .search-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 200px;
-    border: 1px solid white;
-  }
-
-  .search-bar {
+.search-bar {
     width: 400px;
     height:65px;
     background: lightgray;
@@ -235,3 +210,48 @@ h2 {
     background:lightgray;
     cursor: pointer;
   }
+
+ .main-img-butcher {
+    border: 1px solid white;
+    flex: 1;
+    }
+  
+ h2 {
+    background-color: rebeccapurple;
+    flex: 1;
+    height: 100%;
+    border: 1px solid white;
+ }
+  
+  
+  .hero-container {
+    background-color: black;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    
+   }
+
+  
+  .search-bar {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    height:40px;
+    margin-top: 50px;
+    
+  }
+
+
+  
+  .red-meat-text {
+    color: red;
+    font-size:75px;
+  }
+  
+  .span-red-butcher {
+    font-size: 30px;
+    color:red;
+  }
+
+
+  

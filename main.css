@@ -133,18 +133,17 @@ nav h1:hover {
 	width: 100%;
 	height: 100%;
 	z-index: 98;
-    margin-top: 18px;
 	padding-top: 6rem;
 	opacity: 0;
 	transform: translateY(-100%);
 	background-color: #000;
 	color: #FFF;
 	transition: 0.3s;
-    margin-top: 40px;
+    margin-top: 54px;
 }
 
 .mobile-menu.is-open {
-	opacity: 1;
+	opacity: 95%;
 	transform: translateY(0);
 }
 
@@ -160,7 +159,7 @@ nav h1:hover {
 
 .mobile-menu a:hover {
 	color: crimson;
-	background-color: #FFF;
+	background-color: rgb(44, 43, 43);
 }
 
 @media (min-width: 930px) {
@@ -175,19 +174,88 @@ nav h1:hover {
 
 /*Main*/
 
-main {
 
+.hero-container {
+    background-color: black;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
 }
 
+@media (max-width: 930px) {
+    .hero-container {
+        background-color: black;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+        padding:20px;
+    }
+}
+
+ .main-img-butcher {
+   
+    flex: 1;
+}
+  
+ .main-search-container {
+    background-color: black;
+    flex: 1;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ h2 {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    padding: 10px;
+    font-size: 72px;
+
+ }
+
+ @media (max-width: 930px) {
+    h2 {
+        font-size: 50px;
+        margin-top: 10px;
+    }
+ }
+
+ .red-meat-text {
+    color: red;
+ }
+
+ /* search bar */
+
+ 
 .search-bar {
-    width: 400px;
-    height:65px;
+    width: 370px;
+    height:50px;
     background: lightgray;
     display:flex;
     align-items: center;
     border-radius: 60px;
-    padding: 10px 20px;
+    padding: 10px;
+    margin-top: 20px;
   }
+
+  @media (max-width: 930px) {
+    .search-bar {
+        width: 340px;
+        height:40px;
+        background: lightgray;
+        display:flex;
+        align-items: center;
+        border-radius: 60px;
+        padding: 10px;
+        margin-top: 20px;
+      }
+  }
+
   
   .search-bar input {
     background:transparent;
@@ -201,6 +269,12 @@ main {
   .search-bar button img {
     width:20px;
   }
+
+  @media (max-width: 930px) {
+    .search-bar button img {
+     width:20px;
+    }
+  }
   
   .search-bar button {
     border: 0;
@@ -210,48 +284,4 @@ main {
     background:lightgray;
     cursor: pointer;
   }
-
- .main-img-butcher {
-    border: 1px solid white;
-    flex: 1;
-    }
-  
- h2 {
-    background-color: rebeccapurple;
-    flex: 1;
-    height: 100%;
-    border: 1px solid white;
- }
-  
-  
-  .hero-container {
-    background-color: black;
-    height: 500px;
-    display: flex;
-    flex-direction: row;
-    
-   }
-
-  
-  .search-bar {
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    height:40px;
-    margin-top: 50px;
-    
-  }
-
-
-  
-  .red-meat-text {
-    color: red;
-    font-size:75px;
-  }
-  
-  .span-red-butcher {
-    font-size: 30px;
-    color:red;
-  }
-
-
-  
+ 

@@ -318,7 +318,7 @@ nav h1:hover {
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     width: 300px;
-    height: 430px;
+    height: 380px;
     opacity: 95%;
   }
   .card-header img {
@@ -356,4 +356,8 @@ nav h1:hover {
 
   .checked {
     color:yellow;
+  }
+
+  address {
+    margin-top: 10px;
   }

@@ -362,10 +362,10 @@ a {
   }
   .card-body {
     display: flex;
-    flex-direction: column;relative
+    flex-direction: column;
+    position: relative;
 
     align-items: center;
-   
     min-height: 250px;
 
   }
@@ -384,6 +384,7 @@ a {
     font-size: 20px;
     text-align: center;
     margin-top: 10px;
-    border-top: 1px solid black;relative
-
-
+    border-top: 1px solid black;
+    position: relative;
+    padding: 20px;
+  }

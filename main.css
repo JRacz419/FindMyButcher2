@@ -24,6 +24,7 @@ nav {
   padding: 1rem 1.5rem;
 }
 
+
 nav h1 {
 	letter-spacing: 5px;
 	padding: 0.5rem 1rem;
@@ -31,8 +32,8 @@ nav h1 {
   color: red;
   display: inline;
   font-size: 47px;
-  font-weight: 900;
   opacity: 95%;
+  font-weight: bold;
 }
 
 

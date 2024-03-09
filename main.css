@@ -336,6 +336,13 @@ nav h1:hover {
   transition: 1s;
 }
 
+.card-header:hover {
+  -webkit-transform: scale3d(1.2, 1.2, 1);
+   transform: scale3d(1.2, 1.2, 1);
+   transition: all 1s linear;
+ }
+ 
+
 a {
   text-decoration: none;
 }

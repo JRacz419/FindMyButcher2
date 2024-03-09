@@ -32,6 +32,7 @@ nav h1 {
   display: inline;
   font-size: 47px;
   font-weight: 900;
+  opacity: 95%;
 }
 
 
@@ -224,6 +225,7 @@ nav h1:hover {
     padding: 10px;
     font-size: 72px;
     font-weight: bold;
+    opacity: 85%;
  }
 
  @media (max-width: 930px) {
@@ -310,6 +312,7 @@ nav h1:hover {
 
   .top-rated-butchers {
     text-align: center;
+    opacity: 95%;
   }
 
 .card {
@@ -332,7 +335,6 @@ nav h1:hover {
   margin-bottom: 20px;
   transition: 1s;
 }
-
 
 a {
   text-decoration: none;
@@ -371,19 +373,29 @@ a {
   
 .business-name {
   font-size: 30px;
-  color: black;
-  margin-top:8px;
-  height: 120px;
+  color: red;
+  margin-top:2px;
+  height: 110px;
   display: flex;
   align-items: center;
   font-family: roboto;
+  opacity: 80%;
+}
+
+.business-address {
+  font-style: normal;
+  font-family: roboto;
+  color:black;
+  text-align: center;
+  padding-bottom: 8px;
 }
 
 .business-city {
   font-size: 20px;
   text-align: center;
-  margin-top: 8px;
+  margin-top: 2px;
   border-top: 1px solid black;
   position: relative;
   padding: 12px;
+  color: black;
 }

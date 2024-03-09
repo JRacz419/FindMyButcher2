@@ -407,3 +407,8 @@ a {
   padding: 12px;
   color: black;
 }
+
+.span-red {
+  color: red;
+  opacity: 95%;
+}

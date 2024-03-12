@@ -414,21 +414,3 @@ a {
 }
 
 /* Blog Container */
-
-.main-blog-container {
-  border: 1px solid red;
-  height: 30rem;
-}
-
-@media (max-width: 930px) {
-  .main-blog-container {
-   border: 1px solid red;
-   margin-top: 86rem;
-  }
-}
-
-.blog-quote {
-  color: white;
-  font-size: 50px;
-}
-

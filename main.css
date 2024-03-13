@@ -447,7 +447,7 @@ a {
   background-image: url(images/meat-background.jpg);
   background-size: cover;
   background-color: black;
-  border: 1px solid red;
+  justify-content: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -492,11 +492,10 @@ a {
 }
 
 .blog-headline-container {
-  border: 1px solid yellow;
+  
 }
 
 .blog-title {
-  border: 1px solid red;
   padding: 12px;
   opacity: 95%;
   background:transparent;
@@ -505,7 +504,16 @@ a {
 
 .blog-sub-title {
   color: white;
-  padding: 12px;
-  border: 1px solid orange;
+  padding: 14px;
+  font-weight: 100;
+  font-size: 46px;
+  opacity: 95%;
+}
+
+.blog-sub-sub-title {
+  color: white;
+  font-size: 30px;
+  opacity: 95%;
+  padding: 14px;
   font-weight: 100;
 }

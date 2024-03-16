@@ -446,7 +446,7 @@ a {
 /* Blog Container */
 
 .blog-headline-container {
-  height: 30em;
+  height: 72em;
   background-image: url(images/meat-background.jpg);
   background-size: cover;
   background-color: black;
@@ -499,7 +499,7 @@ a {
   opacity: 95%;
   background: transparent;
   color: white;
-  margin-top: 5em;
+  margin-top: 7em;
  
 }
 

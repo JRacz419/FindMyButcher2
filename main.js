@@ -28,3 +28,6 @@ const observer = new IntersectionObserver((entries) =>  {
 
 const hiddenElements = document.querySelectorAll('.card');
 hiddenElements.forEach((el) => observer.observe (el));
+
+
+/*test*/

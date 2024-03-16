@@ -11,7 +11,7 @@ hamburger.addEventListener('click', () => {
 })
 
 
-/*test*/
+/*cards*/
 
 
 const observer = new IntersectionObserver((entries) =>  {
@@ -31,3 +31,4 @@ hiddenElements.forEach((el) => observer.observe (el));
 
 
 /*test*/
+

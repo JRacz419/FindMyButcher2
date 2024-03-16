@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-  
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -302,7 +302,7 @@ nav h1:hover {
   /*featured responsive business cards section*/
 
   .featured-business-cards-container {
-    margin-top: 20px;
+    margin-top: 8em;
     height: 500px;
     background-color: black;
     display: flex;
@@ -334,7 +334,8 @@ nav h1:hover {
   .top-rated-butchers {
     text-align: center;
     opacity: 95%;
-    margin-top: ;
+    margin-top: 120px;
+   
   }
 
   @media (max-width: 930px) {
@@ -444,7 +445,7 @@ a {
 
 /* Blog Container */
 
-.blog-section-container {
+.blog-headline-container {
   height: 30em;
   background-image: url(images/meat-background.jpg);
   background-size: cover;
@@ -458,54 +459,50 @@ a {
 } 
 
 @media (max-width: 1330px) {
-  .blog-section-container {
+  .blog-headline-container {
     margin-top: 36em;
   }
 }
 
 @media (max-width: 1110px) {
-  .blog-section-container {
+  .blog-headline-container {
     margin-top: 36em;
   }
 }
 
 @media (max-width: 1000px) {
-  .blog-section-container {
+  .blog-headline-container {
     margin-top: 40em;
   }
 }
 
 @media (max-width: 920px) {
-  .blog-section-container {
+  .blog-headline-container {
     margin-top: 36em;
   }
 }
 
 @media (max-width: 680px) {
-  .blog-section-container {
+  .blog-headline-container {
     margin-top: 28em;
   }
 }
 
 @media (max-width: 430px) {
-  .blog-section-container {
+  .blog-headline-container {
     margin-top: 90em;
   }
 }
 
-.blog-title {
+.blog-headline {
   padding: 12px;
   opacity: 95%;
-  background:transparent;
+  background: transparent;
   color: white;
+  margin-top: 5em;
+ 
 }
 
 
 
 /* test*/
-
-
-* {
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}

@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -502,7 +505,7 @@ a {
 
 /* test*/
 
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 * {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
@@ -512,7 +515,7 @@ a {
   display: flex;
   flex-direction: column;
   margin: 1rem auto;
-  margin-top: 40px;
+  
   box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
   margin-bottom: 1.6%;
   background: #fff;

@@ -529,6 +529,16 @@ a {
   margin: auto;
 }
 
+.blog-content-title {
+  font-size: 72px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  align-content: center;
+}
+
 .blog-content {
   font-size: 40px;
   color: white;

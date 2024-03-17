@@ -1,22 +1,16 @@
-
-
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
 body {
 	background-color: black;
 }
-
 main {
   margin-top: 6em;
 }
-
 /* Nav Bar*/
-
 nav {
 	position:fixed;
   top:0;
@@ -29,8 +23,6 @@ nav {
 	color: red;
   padding: 1rem 1.5rem;
 }
-
-
 nav h1 {
 	letter-spacing: 5px;
 	padding: 0.5rem 1rem;
@@ -41,19 +33,14 @@ nav h1 {
   opacity: 95%;
   font-weight: bold;
 }
-
-
-
 nav h1:hover {
 	color: red;
 }
-
 .menu {
 	display: none;
 	align-items: center;
 	margin: 15px;
 }
-
 .menu a {
 	margin: 0 1rem;
 	color: white;
@@ -61,18 +48,15 @@ nav h1:hover {
 	transition: 0.3s;
   font-size: 20px;
 }
-
 .menu a:hover {
   color:red;
   text-decoration: none;
 }
-
 .button-container {
   display:flex;
   justify-content: center;
   margin-top: 30px;
 }
-
 .button-29 {
   margin-top: 4px;
   align-items: center;
@@ -106,21 +90,17 @@ nav h1:hover {
   will-change: box-shadow,transform;
   font-size: 22px;
 }
-
 .button-29:focus {
   box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
 }
-
 .button-29:hover {
   box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
   transform: translateY(-2px);
 }
-
 .button-29:active {
   box-shadow: #3c4fe0 0 3px 7px inset;
   transform: translateY(2px);
 } 
-
 .hamburger {
 	appearance: none;
 	outline: none;
@@ -131,12 +111,10 @@ nav h1:hover {
 	width: 2rem;
 	height: 2rem;
 }
-
 .hamburger span {
 	color: #FFF;
 	font-size: 2rem;
 }
-
 .mobile-menu {
 	position: fixed;
 	top: 0;
@@ -152,12 +130,10 @@ nav h1:hover {
 	transition: 0.3s;
   margin-top: 54px;
 }
-
 .mobile-menu.is-open {
 	opacity: 95%;
 	transform: translateY(0);
 }
-
 .mobile-menu a {
 	display: block;
 	padding: 1rem;
@@ -167,24 +143,18 @@ nav h1:hover {
 	font-size: 1.25rem;
 	transition: 0.3s;
 }
-
 .mobile-menu a:hover {
 	color: crimson;
 }
-
 @media (min-width: 930px) {
 	.mobile-menu, .hamburger {
 	display: none;
 	}
-
 	.menu {
 	display: flex;
 	}
 }
-
 /*Main*/
-
-
 .hero-container {
   background-color: black;
   height: 32rem;
@@ -192,7 +162,6 @@ nav h1:hover {
   flex-direction: row;
   margin-top: 20px;
 }
-
 @media (max-width: 930px) {
   .hero-container {
   background-color: black;
@@ -205,11 +174,9 @@ nav h1:hover {
   margin-top: 120px;
   }
 }
-
  .main-img-butcher {
   flex: 1;
 }
-
 @media (max-width: 930px) {
   .main-img-butcher {
   margin-top: 10px;;
@@ -224,7 +191,6 @@ nav h1:hover {
     flex-direction: column;
     align-items: center;
  }
-
  h2 {
     text-align: center;
     color: white;
@@ -234,20 +200,16 @@ nav h1:hover {
     font-weight: bold;
     opacity: 85%;
  }
-
  @media (max-width: 930px) {
   h2 {
     font-size: 50px;
     margin-top: 10px;
   }
  }
-
  .red-meat-text {
     color: red;
  }
-
  /* search bar */
-
  
 .search-bar {
     width: 370px;
@@ -259,7 +221,6 @@ nav h1:hover {
     padding: 10px;
     margin-top: 20px;
   }
-
   @media (max-width: 930px) {
     .search-bar {
     width: 340px;
@@ -272,7 +233,6 @@ nav h1:hover {
     margin-top: 20px;
     }
   }
-
   
   .search-bar input {
     background:transparent;
@@ -302,9 +262,7 @@ nav h1:hover {
     background:lightgray;
     cursor: pointer;
   }
-
   /*featured responsive business cards section*/
-
   .featured-business-cards-container {
     margin-top: 8em;
     height: 500px;
@@ -315,7 +273,6 @@ nav h1:hover {
     flex:1;
     gap: 20px;
   }
-
   @media (max-width: 930px) {
     .featured-business-cards-container {
       margin-top: 70px;
@@ -328,13 +285,7 @@ nav h1:hover {
       gap: 20px;
     }
   }
-
-
-
-
-
   /*card design*/
-
   .top-rated-butchers {
     text-align: center;
     opacity: 95%;
@@ -342,7 +293,6 @@ nav h1:hover {
     font-size: 72px;
    
   }
-
   @media (max-width: 930px) {
     .top-rated-butchers {
       text-align: center;
@@ -350,7 +300,6 @@ nav h1:hover {
       margin-top: 2em;
     }
   }
-
 .card {
   margin-top: 20px;
   border-radius: 10px;
@@ -364,43 +313,35 @@ nav h1:hover {
   transform: translateX(-100%);
   transition: all 1s;
 }
-
 .card:hover {
   box-shadow: 0 6px 6px 0 rgb(99, 99, 99);
   margin-top: -20px;
   margin-bottom: 20px;
   transition: 1s;
 }
-
 .card-header:hover {
   -webkit-transform: scale3d(1.2, 1.2, 1);
   transform: scale3d(1.2, 1.2, 1);
   transition: all 1s linear;
  }
  
-
 a {
   text-decoration: none;
 }
-
 .show {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
 }
-
 .card:nth-child(2) {
   transition-delay: 200ms;
 }
-
 .card:nth-child(3) {
   transition-delay: 400ms;
 }
-
 .card:nth-child(4) {
   transition-delay: 600ms;
 }
-
 .card-header img {
   width: 100%;
   height: 200px;
@@ -424,7 +365,6 @@ a {
   font-family: roboto;
   opacity: 80%;
 }
-
 .business-address {
   font-style: normal;
   font-family: roboto;
@@ -432,7 +372,6 @@ a {
   text-align: center;
   padding-bottom: 8px;
 }
-
 .business-city {
   font-size: 20px;
   text-align: center;
@@ -442,14 +381,11 @@ a {
   padding: 12px;
   color: black;
 }
-
 .span-red {
   color: red;
   opacity: 95%;
 }
-
 /* Blog Container */
-
 .blog-headline-container {
   height: 72em;
   background-image: url(images/meat-background.jpg);
@@ -462,45 +398,36 @@ a {
   flex: 1;
   width: 100%;
 } 
-
 @media (max-width: 1330px) {
   .blog-headline-container {
     margin-top: 36em;
   }
 }
-
 @media (max-width: 1110px) {
   .blog-headline-container {
     margin-top: 36em;
   }
 }
-
 @media (max-width: 1000px) {
   .blog-headline-container {
     margin-top: 40em;
   }
 }
-
 @media (max-width: 920px) {
   .blog-headline-container {
     margin-top: 36em;
   }
 }
-
 @media (max-width: 680px) {
   .blog-headline-container {
     margin-top: 28em;
   }
 }
-
 @media (max-width: 650px) {
   .blog-headline-container {
     margin-top: 66em;
   }
 }
-
-
-
 .blog-headline {
   padding: 24px;
   opacity: 95%;
@@ -509,32 +436,26 @@ a {
   margin-top: 7em;
   line-height: 1.5em;
 }
-
-
-
-/* blog cards*/
-
+/* test*/
 .main-blog-container {
   width: 100%;
 }
-
 .blog-section {
   width: 85%;
   margin: 20px auto;
 }
-
  .card-title {
   width: 60%;
   text-align: center;
   margin: auto;
 }
-
 .blog-content-title {
   font-size: 72px;
   color: white;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+
   align-content: center;
 }
 
@@ -556,36 +477,30 @@ a {
   color: #7e7e7e;
   margin-top: 20px;
 } 
-
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
   margin: 25px auto;
 }
-
 .cards .single-cards {
   width: 100%;
   position: relative;
 }
-
 .image-section img {
   width: 100%;
   height: auto;
 }
-
 .blog-content h4 {
   font-size: 24px;
   color: white;
   font-weight: 500;
 }
-
 .card-paragraphs {
   color: #7e7e7e;
   font-size: 15px;
   padding: 20px;
 }
-
 .blog-content a {
   text-decoration: none;
   color: #fff;
@@ -594,7 +509,6 @@ a {
   background-color: #3a706a;
   padding: 8px 15px;
 }
-
 .posted-date {
   position: absolute;
   top: 0;
@@ -603,108 +517,13 @@ a {
   background-color: #ada62b;
   padding: 6px 15px;
 }
-
 @media screen and (max-width: 992px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
 @media screen and (max-width: 768px) {
   .cards {
     grid-template-columns: 1fr;
   }
-}
-
-/* test */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
-.contact-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #1f242d;
-}
-
-.contact h2 {
-    font-size: 40px;
-    color: #ededed;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.contact form {
-    width: 600px;
-    text-align: center;
-}
-
-form .input-box {
-    display: flex;
-    justify-content: space-between;
-}
-
-.input-box .input-field {
-    width: 48.5%;
-}
-
-.field .item {
-    width: 100%;
-    padding: 18px;
-    background: transparent;
-    border: 2px solid #0ef;
-    outline: none;
-    border-radius: 6px;
-    font-size: 16px;
-    color: #ededed;
-    margin: 12px 0;
-}
-
-.field.error .item {
-    border-color: #d93025;
-}
-
-.field .item::placeholder {
-    color: rgba(255, 255, 255, .3);
-}
-
-.field .error-txt {
-    font-size: 14.5px;
-    color: #d93025;
-    text-align: left;
-    margin: -5px 0 10px;
-    display: none;
-}
-
-.field.error .error-txt {
-    display: block;
-}
-
-form .textarea-field .item {
-    resize: none;
-}
-
-form .textarea-field .error-txt {
-    margin-top: -10px;
-}
-
-form button {
-    padding: 12px 32px;
-    background: #0ef;
-    border: none;
-    outline: none;
-    border-radius: 6px;
-    box-shadow: 0 0 10px #0ef;
-    font-size: 16px;
-    color: #333;
-    letter-spacing: 1px;
-    font-weight: 600;
-    cursor: pointer;
-    margin-top: 20px;
-    transition: .5s;
-}
-
-form button:hover {
-    box-shadow: none;
 }

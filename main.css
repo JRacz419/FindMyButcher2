@@ -11,6 +11,10 @@ body {
 	background-color: black;
 }
 
+main {
+  margin-top: 6em;
+}
+
 /* Nav Bar*/
 
 nav {
@@ -335,6 +339,7 @@ nav h1:hover {
     text-align: center;
     opacity: 95%;
     margin-top: 120px;
+    font-size: 72px;
    
   }
 
@@ -495,14 +500,102 @@ a {
 }
 
 .blog-headline {
-  padding: 12px;
+  padding: 24px;
   opacity: 95%;
   background: transparent;
   color: white;
   margin-top: 7em;
- 
+  line-height: 1.5em;
 }
 
 
 
 /* test*/
+
+.main-blog-container {
+  width: 100%;
+}
+
+.blog-section {
+  width: 85%;
+  margin: 20px auto;
+}
+
+ .card-title {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.blog-content {
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 50px;
+  padding: 15px 20px;
+}
+
+.card-paragraph {
+  font-size: 18px;
+  color: #7e7e7e;
+  margin-top: 20px;
+} 
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  margin: 25px auto;
+}
+
+.cards .single-cards {
+  width: 100%;
+  position: relative;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+}
+
+.blog-content h4 {
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+}
+
+.card-paragraphs {
+  color: #7e7e7e;
+  font-size: 15px;
+}
+
+.blog-content a {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 12px;
+  display: inline-block;
+  background-color: #3a706a;
+  padding: 8px 15px;
+}
+
+.posted-date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  background-color: #ada62b;
+  padding: 6px 15px;
+}
+
+@media screen and (max-width: 992px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+

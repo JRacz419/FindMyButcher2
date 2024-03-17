@@ -493,11 +493,13 @@ a {
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 650px) {
   .blog-headline-container {
-    margin-top: 90em;
+    margin-top: 66em;
   }
 }
+
+
 
 .blog-headline {
   padding: 24px;
@@ -567,6 +569,7 @@ a {
 .card-paragraphs {
   color: #7e7e7e;
   font-size: 15px;
+  padding: 20px;
 }
 
 .blog-content a {
@@ -598,4 +601,3 @@ a {
     grid-template-columns: 1fr;
   }
 }
-

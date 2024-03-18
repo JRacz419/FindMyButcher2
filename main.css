@@ -528,3 +528,22 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* main sign up */
+
+.main-signup-container {
+  background-color: gray;
+  height: 28em;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-title {
+  border: 1px solid #ff4500;
+  background-color: #3a706a;
+  font-size: 72px;
+  padding: 6px;
+  text-align: center;
+}
+

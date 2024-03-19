@@ -533,24 +533,68 @@ a {
 /* main sign up */
 
 .main-signup-container {
-  background-color: gray;
+  background-color: black;
+  color: white;
   height: 28em;
   display: flex;
   flex-direction: column;
 }
 
 .signup-title {
-  border: 1px solid #ff4500;
-  background-color: #3a706a;
+  margin-top: 2em;
+  background-color: black;
   font-size: 72px;
   padding: 6px;
   text-align: center;
+  font-weight: bold;
 }
 
 .signup-subtitle {
-  border: 1px solid blue;
   text-align: center;
-  padding: 6px;
+  padding: 12px;
   font-size: 20px;
+  margin-top: 12px;
+}
+
+.signup-field {
+  width: 600px;
+  height: 30px;
+  border-radius: 6px;
+  align-self: center;
+  margin-top: 1em;
+  border: 2px solid red;
+  padding: 6px;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .signup-field {
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+    align-self: center;
+    margin-top: 1em;
+    border: 2px solid red;
+    padding: 6px;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+    color: white;
+  }
+}
+
+
+
+.signup-button-container {
+  width: 300px;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 1em;
 }
 

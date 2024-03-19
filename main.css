@@ -35,23 +35,27 @@ nav h1 {
   font-weight: bold;
 }
 nav h1:hover {
-	color: red;
+	opacity:1;
 }
 .menu {
 	display: none;
 	align-items: center;
 	margin: 15px;
+ 
 }
 .menu a {
 	margin: 0 1rem;
-	color: white;
-	text-decoration: none;
-	transition: 0.3s;
-  font-size: 20px;
-}
-.menu a:hover {
-  color:red;
+  color: white;
   text-decoration: none;
+  font-size: 16px;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+
+
+.menu a:hover {
+ opacity: 1;
 }
 .button-container {
   display:flex;
@@ -90,6 +94,7 @@ nav h1:hover {
   white-space: nowrap;
   will-change: box-shadow,transform;
   font-size: 22px;
+ 
 }
 .button-29:focus {
   box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
@@ -145,7 +150,8 @@ nav h1:hover {
 	transition: 0.3s;
 }
 .mobile-menu a:hover {
-	color: crimson;
+  opacity: 0.7;
+  transition: 0.5s;
 }
 @media (min-width: 930px) {
 	.mobile-menu, .hamburger {
@@ -312,13 +318,13 @@ nav h1:hover {
   opacity: 0;
   filter:blur(3px);
   transform: translateX(-100%);
-  transition: all 1s;
+  transition: all .75s;
 }
 .card:hover {
   box-shadow: 0 6px 6px 0 rgb(99, 99, 99);
-  margin-top: -20px;
-  margin-bottom: 20px;
-  transition: 1s;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  transition: .5s;
 }
 .card-header:hover {
   -webkit-transform: scale3d(1.2, 1.2, 1);
@@ -334,14 +340,15 @@ a {
   filter: blur(0);
   transform: translateX(0);
 }
+
 .card:nth-child(2) {
-  transition-delay: 200ms;
+  transition-delay: 100ms;
 }
 .card:nth-child(3) {
-  transition-delay: 400ms;
+  transition-delay: 200ms;
 }
 .card:nth-child(4) {
-  transition-delay: 600ms;
+  transition-delay: 300ms;
 }
 .card-header img {
   width: 100%;
@@ -469,8 +476,10 @@ a {
 }
 
 .blog-paragraph {
-  color: white;
+  opacity: 0.7;
   padding: auto;
+  color: white;
+  font-size: 16px;
 }
 
 .card-paragraph {
@@ -498,9 +507,10 @@ a {
   font-weight: 500;
 }
 .card-paragraphs {
-  color: #7e7e7e;
+  
   font-size: 15px;
   padding: 20px;
+  opacity: 0.7;
 }
 .blog-content a {
   text-decoration: none;
@@ -555,6 +565,7 @@ a {
   padding: 12px;
   font-size: 20px;
   margin-top: 12px;
+  opacity: 0.7;
 }
 
 .signup-field {
@@ -563,12 +574,13 @@ a {
   border-radius: 6px;
   align-self: center;
   margin-top: 1em;
-  border: 2px solid red;
-  padding: 6px;
+  border: 3px solid  red;
+  padding: 16px;
   outline: none;
   font-size: 16px;
   background: transparent;
   color: white;
+  
 }
 
 @media screen and (max-width: 800px) {

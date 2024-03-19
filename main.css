@@ -586,8 +586,6 @@ a {
   }
 }
 
-
-
 .signup-button-container {
   width: 300px;
   align-self: center;
@@ -597,4 +595,7 @@ a {
   padding: 20px;
   margin-top: 1em;
 }
+
+/* Footer */
+
 

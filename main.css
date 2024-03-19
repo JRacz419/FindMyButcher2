@@ -538,6 +538,7 @@ a {
   height: 28em;
   display: flex;
   flex-direction: column;
+  margin-top: 10em;
 }
 
 .signup-title {
@@ -598,4 +599,112 @@ a {
 
 /* Footer */
 
+footer {
+  margin-top: 20em;
+}
 
+.footer-container {
+  background-color: black;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-sec {
+  color: white;
+  margin-bottom: 25px;
+  font-size: 22px;
+  position: relative;
+}
+
+.footer-sec::before {
+  content: '';
+  width: 70px;
+  height: 2px;
+  position: absolute;
+  background-color: red;
+  bottom: -10px;
+}
+
+.footer-col ul li {
+  padding: 10px 0;
+}
+
+.footer-col ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footer-col ul li a:hover {
+  opacity: 1;
+}
+
+.footer-col input {
+  border: none;
+  width: 250px;
+  height: 45px;
+  display: block;
+  padding-left: 20px;
+  margin: 14px 0;
+}
+
+.footer-col .signup-button {
+  padding: 0px 20px;
+  background-color: #e91e64;
+  border: none;
+  color: white;
+  height: 26px;
+  width:250px;
+  cursor: pointer;
+}
+
+.copyright {
+  color: white;
+  
+}
+
+.footer-row hr {
+  opacity: 0.7;
+}
+
+.footer-row .social-icons i {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin: 0 15px;
+  transition: 0.5s;
+}
+
+.footer-row .social-icons i:hover {
+  color: #e91e64;
+}
+
+@media (max-width: 600px) {
+  footer {
+    margin-top: 20em;
+  }
+  footer .footer-row {
+    flex-direction: column;
+    padding: 20px 30px;
+  }
+  footer .footer-col ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .footer-col input {
+    width: 100%;
+  }
+  .social-icons {
+    margin-top: 1em;
+  }
+}

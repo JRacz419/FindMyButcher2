@@ -203,7 +203,7 @@ nav h1:hover {
     border: 2px solid red;
     width: 370px;
     height:50px;
-    background: transparent;
+    background: rgb(31, 31, 31);
     display:flex;
     align-items: center;
     border-radius: 60px;
@@ -448,6 +448,7 @@ a {
   padding: auto;
   color: white;
   font-size: 16px;
+  margin-top: 3em;
 }
 
 .card-paragraph {
@@ -460,6 +461,7 @@ a {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
   margin: 25px auto;
+  margin-top: 3em;
 }
 .cards .single-cards {
   width: 100%;
@@ -694,7 +696,7 @@ footer {
   }
 }
 
-/*test*/
+/*beta button*/
 
 
 .glowing-btn {

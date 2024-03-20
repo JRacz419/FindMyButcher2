@@ -676,7 +676,7 @@ footer {
 
 .copyright {
   color: white;
-  
+  opacity: 0.8;
 }
 
 .footer-row hr {

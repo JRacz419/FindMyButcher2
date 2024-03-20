@@ -320,15 +320,7 @@ a {
   transform: translateX(0);
 }
 
-.card:nth-child(2) {
-  transition-delay: 100ms;
-}
-.card:nth-child(3) {
-  transition-delay: 200ms;
-}
-.card:nth-child(4) {
-  transition-delay: 300ms;
-}
+
 .card-header img {
   width: 100%;
   height: 200px;

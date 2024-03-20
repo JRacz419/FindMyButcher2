@@ -290,7 +290,7 @@ nav h1:hover {
   margin-top: 20px;
   border-radius: 10px;
   background-color: white;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 16px 18px rgba(42, 42, 42, 0.2);
   overflow: hidden;
   width: 300px;
   height: 420px;
@@ -654,16 +654,6 @@ footer {
   display: block;
   padding-left: 20px;
   margin: 14px 0;
-}
-
-.footer-col .signup-button {
-  padding: 0px 20px;
-  background-color: #e91e64;
-  border: none;
-  color: white;
-  height: 26px;
-  width:250px;
-  cursor: pointer;
 }
 
 .copyright {

@@ -710,7 +710,7 @@ footer {
   background: none;
   perspective: 2em;
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 900;
   letter-spacing: 1em;
   border: 1px dotted white;
@@ -776,6 +776,7 @@ footer {
   color: rgba(0, 0, 0, 0.8);
   text-shadow: none;
   animation: none;
+  border:none;
 }
 
 .glowing-btn:hover .glowing-txt {
@@ -897,6 +898,6 @@ footer {
 
 @media only screen and (max-width: 600px) {
   .glowing-btn{
-    font-size: 16px;
+    font-size: 14px;
   }
 }

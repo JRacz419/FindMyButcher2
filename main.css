@@ -198,25 +198,33 @@ nav h1:hover {
  /* search bar */
  
 .search-bar {
+    border: 2px solid red;
     width: 370px;
     height:50px;
-    background: lightgray;
+    background: transparent;
     display:flex;
     align-items: center;
     border-radius: 60px;
     padding: 10px;
     margin-top: 20px;
+    color: white;
+    opacity: 0.8;
   }
+
+
   @media (max-width: 930px) {
     .search-bar {
+    border: 2px solid red;
     width: 340px;
     height:40px;
-    background: lightgray;
+    background: transparent;
     display:flex;
     align-items: center;
     border-radius: 60px;
     padding: 10px;
     margin-top: 20px;
+    color: white;
+    opacity: 0.8;
     }
   }
   
@@ -227,27 +235,14 @@ nav h1:hover {
     outline:none;
     padding: 24px 20px;
     font-size: 20px;
+    color: white;
+    opacity: 0.8;
   }
-  
-  .search-bar button img {
-    width:18px;
+ 
+  #main-search-button {
+    margin-top: 20px;
   }
-  
-  @media (max-width: 930px) {
-    .search-bar button img {
-     width:18px;
-    
-    }
-  }
-  
-  .search-bar button {
-    border: 0;
-    border-radius:  50%;
-    width: 36px;
-    height: 36px;
-    background:lightgray;
-    cursor: pointer;
-  }
+
   /*featured responsive business cards section*/
   .featured-business-cards-container {
     margin-top: 8em;
@@ -307,7 +302,7 @@ nav h1:hover {
 }
 .card-header:hover {
   -webkit-transform: scale3d(1.2, 1.2, 1);
-  transform: scale3d(1.2, 1.2, 1);
+  transform: scale3d(1.1, 1.1, 1);
   transition: all 1s linear;
  }
  

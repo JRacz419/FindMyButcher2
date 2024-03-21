@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
-
-
 * {
 	margin: 0;
 	padding: 0;
@@ -53,7 +51,6 @@ nav h1:hover {
   opacity: 0.8;
   transition: 0.5s;
 }
-
 .menu a:hover {
  opacity: 1;
 }
@@ -62,8 +59,6 @@ nav h1:hover {
   justify-content: center;
   margin-top: 30px;
 }
-
-
 .button-29 {
   background-color: transparent;
   border: 2px solid red;
@@ -74,7 +69,6 @@ nav h1:hover {
   border-radius: 16px;
   cursor: pointer;
 }
-
 .button-29:hover {
   background-color: transparent;
   border: 2px solid red;
@@ -84,10 +78,7 @@ nav h1:hover {
   opacity: 1;
   border-radius: 16px;
   cursor: pointer;
-
 }
-
-
 .hamburger {
 	appearance: none;
 	outline: none;
@@ -212,8 +203,6 @@ nav h1:hover {
     color: white;
     opacity: 0.8;
   }
-
-
   @media (max-width: 930px) {
     .search-bar {
     border: 2px solid red;
@@ -244,7 +233,6 @@ nav h1:hover {
   #main-search-button {
     margin-top: 20px;
   }
-
   /*featured responsive business cards section*/
   .featured-business-cards-container {
     margin-top: 8em;
@@ -316,8 +304,6 @@ a {
   filter: blur(0);
   transform: translateX(0);
 }
-
-
 .card-header img {
   width: 100%;
   height: 200px;
@@ -431,10 +417,8 @@ a {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
   align-content: center;
 }
-
 .blog-content {
   font-size: 40px;
   color: white;
@@ -442,7 +426,6 @@ a {
   margin-top: 50px;
   padding: 15px 20px;
 }
-
 .blog-paragraph {
   opacity: 0.7;
   padding: auto;
@@ -450,6 +433,7 @@ a {
   font-size: 16px;
   margin-top: 3em;
 }
+
 
 .card-paragraph1 {
   font-size: 14px;
@@ -478,8 +462,6 @@ a {
   padding: 12px;
 } 
 
-
-
 .button3,
 .button2,
 .button1 {
@@ -491,53 +473,20 @@ a {
   opacity: 0.8;
   border-radius: 16px;
   cursor: pointer;
+
+  margin-top: 40px;
 }
 
 @media (max-width: 650px) {
- .button3 {
-  margin-top: 100px;
- } 
-}
-
-
-@media (max-width: 650px) {
-  .button2 {
-   margin-top: 60px;
-  } 
- }
-
- @media (max-width: 650px) {
   .button1 {
-   margin-top: 120px;
-  } 
- }
-
-
-
-
-
-.button2:hover {
-  background-color: transparent;
-  border: 2px solid red;
-  font-size: 22px;
-  padding: 12px;
-  color: white;
-  opacity: 1;
-  border-radius: 16px;
-  cursor: pointer;
-
+    margin-top: 80px;
+  }
 }
 
-.button3:hover {
-  background-color: transparent;
-  border: 2px solid red;
-  font-size: 22px;
-  padding: 12px;
-  color: white;
-  opacity: 1;
-  border-radius: 16px;
-  cursor: pointer;
-
+@media (max-width: 650px) {
+  .button3 {
+    margin-top: 80px;
+  }
 }
 
 .button1:hover {
@@ -549,30 +498,31 @@ a {
   opacity: 1;
   border-radius: 16px;
   cursor: pointer;
+}
 
+.button2:hover {
+  background-color: transparent;
+  border: 2px solid red;
+  font-size: 22px;
+  padding: 12px;
+  color: white;
+  opacity: 1;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.button3:hover {
+  background-color: transparent;
+  border: 2px solid red;
+  font-size: 22px;
+  padding: 12px;
+  color: white;
+  opacity: 1;
+  border-radius: 16px;
+  cursor: pointer;
 }
 
 
-
-
-
-.card-paragraph2 {
-  font-size: 14px;
-  color: white;
-  margin-top: 12px;
-  height: 10.1em;
-  opacity: 0.8;
-  padding: 12px;
-} 
-
-.card-paragraph3 {
-  font-size: 14px;
-  color: white;
-  margin-top: 2.5em;
-  height: 10.2em;
-  opacity: 0.8;
-  padding: 12px;
-} 
 
 
 .cards {
@@ -580,7 +530,7 @@ a {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
   margin: 25px auto;
-  margin-top: 10em;
+  margin-top: 3em;
 }
 .cards .single-cards {
   width: 100%;
@@ -597,16 +547,12 @@ a {
   width: 100%;
   height: 330px;
 }
-
 @media screen and (max-width: 768px) {
   .image-section img {
     width: 100%;
     height: 250px;
   }
 }
-
-
-
 .blog-content h4 {
   font-size: 24px;
   color: white;
@@ -644,10 +590,7 @@ a {
     grid-template-columns: 1fr;
   }
 }
-
-
 /* main sign up */
-
 .main-signup-container {
   background-color: black;
   color: white;
@@ -656,7 +599,6 @@ a {
   flex-direction: column;
   margin-top: 10em;
 }
-
 .signup-title {
   margin-top: 2em;
   background-color: black;
@@ -665,7 +607,6 @@ a {
   text-align: center;
   font-weight: bold;
 }
-
 .signup-subtitle {
   text-align: center;
   padding: 12px;
@@ -673,7 +614,6 @@ a {
   margin-top: 12px;
   opacity: 0.7;
 }
-
 .signup-field {
   width: 600px;
   height: 30px;
@@ -687,7 +627,6 @@ a {
   background: transparent;
   color: white;
 }
-
 @media screen and (max-width: 800px) {
   .signup-field {
     width: 300px;
@@ -703,7 +642,6 @@ a {
     color: white;
   }
 }
-
 .signup-button-container {
   width: 300px;
   align-self: center;
@@ -713,34 +651,27 @@ a {
   padding: 20px;
   margin-top: 1em;
 }
-
 /* Footer */
-
 footer {
   margin-top: 20em;
 }
-
 .footer-container {
   background-color: black;
 }
-
 .footer-row {
   display: flex;
   justify-content: space-between;
   padding: 40px 100px;
 }
-
 .footer-col ul {
   list-style: none;
 }
-
 .footer-sec {
   color: white;
   margin-bottom: 25px;
   font-size: 22px;
   position: relative;
 }
-
 .footer-sec::before {
   content: '';
   width: 70px;
@@ -749,11 +680,9 @@ footer {
   background-color: red;
   bottom: -10px;
 }
-
 .footer-col ul li {
   padding: 10px 0;
 }
-
 .footer-col ul li a{
   color: white;
   text-decoration: none;
@@ -761,11 +690,9 @@ footer {
   opacity: 0.7;
   transition: 0.5s;
 }
-
 .footer-col ul li a:hover {
   opacity: 1;
 }
-
 .footer-col input {
   border: none;
   width: 250px;
@@ -774,16 +701,13 @@ footer {
   padding-left: 20px;
   margin: 14px 0;
 }
-
 .copyright {
   color: white;
   opacity: 0.8;
 }
-
 .footer-row hr {
   opacity: 0.7;
 }
-
 .footer-row .social-icons i {
   display: inline-block;
   color: white;
@@ -791,11 +715,9 @@ footer {
   margin: 0 15px;
   transition: 0.5s;
 }
-
 .footer-row .social-icons i:hover {
   color: #e91e64;
 }
-
 @media (max-width: 600px) {
   footer {
     margin-top: 20em;
@@ -815,10 +737,7 @@ footer {
     margin-top: 1em;
   }
 }
-
 /*beta button*/
-
-
 .glowing-btn {
   margin-bottom: 12px;
   position: relative;
@@ -830,10 +749,13 @@ footer {
   background: none;
   perspective: 2em;
   font-family: "Raleway", sans-serif;
+  font-size: 14px;
   font-size: 11px;
   font-weight: 900;
   letter-spacing: 1em;
- 
+  border: 1px dotted white;
+
+
   -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
     0px 0px 0.5em 0px var(--glow-color);
   -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
@@ -846,6 +768,7 @@ footer {
 
 
 .v-two {
+  font-size: 10px;
   font-size: 8px;
 }
 
@@ -859,12 +782,10 @@ footer {
   text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--glow-color);
   animation: text-flicker 3s linear infinite;
 }
-
 .faulty-letter {
   opacity: 0.5;
   animation: faulty-flicker 2s linear infinite;
 }
-
 .glowing-btn::before {
   content: "";
   position: absolute;
@@ -878,7 +799,6 @@ footer {
   background: var(--glow-color);
   pointer-events: none;
 }
-
 .glowing-btn::after {
   content: "";
   position: absolute;
@@ -900,26 +820,21 @@ footer {
   animation: none;
   border:none;
 }
-
 .glowing-btn:hover .glowing-txt {
   animation: none;
 }
-
 .glowing-btn:hover .faulty-letter {
   animation: none;
   text-shadow: none;
   opacity: 1;
 }
-
 .glowing-btn:hover:before {
   filter: blur(1.5em);
   opacity: 1;
 }
-
 .glowing-btn:hover:after {
   opacity: 1;
 }
-
 @keyframes faulty-flicker {
   0% {
     opacity: 0.1;
@@ -945,29 +860,23 @@ footer {
   83% {
     opacity: 0.4;
   }
-
   87% {
     opacity: 1;
   }
 }
-
 @keyframes text-flicker {
   0% {
     opacity: 0.1;
   }
-
   2% {
     opacity: 1;
   }
-
   8% {
     opacity: 0.1;
   }
-
   9% {
     opacity: 1;
   }
-
   12% {
     opacity: 0.1;
   }
@@ -980,14 +889,12 @@ footer {
   30% {
     opacity: 1;
   }
-
   70% {
     opacity: 0.7;
   }
   72% {
     opacity: 0.2;
   }
-
   77% {
     opacity: 0.9;
   }
@@ -995,7 +902,6 @@ footer {
     opacity: 0.9;
   }
 }
-
 @keyframes border-flicker {
   0% {
     opacity: 0.1;
@@ -1006,7 +912,6 @@ footer {
   4% {
     opacity: 0.1;
   }
-
   8% {
     opacity: 1;
   }
@@ -1019,7 +924,7 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-  .glowing-btn{
+  .glowing-btn {
     font-size: 9px;
   }
 }

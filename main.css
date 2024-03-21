@@ -479,12 +479,84 @@ a {
 } 
 
 
+
+.button3,
+.button2,
+.button1 {
+  background-color: transparent;
+  border: 2px solid red;
+  font-size: 22px;
+  padding: 12px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 650px) {
+ .button3 {
+  margin-top: 100px;
+ } 
+}
+
+
+@media (max-width: 650px) {
+  .button2 {
+   margin-top: 60px;
+  } 
+ }
+
+ @media (max-width: 650px) {
+  .button1 {
+   margin-top: 100px;
+  } 
+ }
+
+
+
+.button3
+.button2
+.button1:hover {
+  background-color: transparent;
+  border: 2px solid red;
+  font-size: 22px;
+  padding: 12px;
+  color: white;
+  opacity: 1;
+  border-radius: 16px;
+  cursor: pointer;
+
+}
+
+
+
+
+
+.card-paragraph2 {
+  font-size: 14px;
+  color: white;
+  margin-top: 12px;
+  height: 10.1em;
+  opacity: 0.8;
+  padding: 12px;
+} 
+
+.card-paragraph3 {
+  font-size: 14px;
+  color: white;
+  margin-top: 2.5em;
+  height: 10.2em;
+  opacity: 0.8;
+  padding: 12px;
+} 
+
+
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
   margin: 25px auto;
-  margin-top: 3em;
+  margin-top: 10em;
 }
 .cards .single-cards {
   width: 100%;

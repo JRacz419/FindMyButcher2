@@ -514,8 +514,32 @@ a {
 
 
 
-.button3
-.button2
+
+
+.button2:hover {
+  background-color: transparent;
+  border: 2px solid red;
+  font-size: 22px;
+  padding: 12px;
+  color: white;
+  opacity: 1;
+  border-radius: 16px;
+  cursor: pointer;
+
+}
+
+.button3:hover {
+  background-color: transparent;
+  border: 2px solid red;
+  font-size: 22px;
+  padding: 12px;
+  color: white;
+  opacity: 1;
+  border-radius: 16px;
+  cursor: pointer;
+
+}
+
 .button1:hover {
   background-color: transparent;
   border: 2px solid red;

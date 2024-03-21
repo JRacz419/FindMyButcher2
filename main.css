@@ -451,11 +451,34 @@ a {
   margin-top: 3em;
 }
 
-.card-paragraph {
-  font-size: 18px;
-  color: #7e7e7e;
-  margin-top: 20px;
+.card-paragraph1 {
+  font-size: 14px;
+  color: white;
+  margin-top: 3em;
+  height: 10em;
+  opacity: 0.8;
+  padding: 12px;
 } 
+
+.card-paragraph2 {
+  font-size: 14px;
+  color: white;
+  margin-top: 12px;
+  height: 10.1em;
+  opacity: 0.8;
+  padding: 12px;
+} 
+
+.card-paragraph3 {
+  font-size: 14px;
+  color: white;
+  margin-top: 2.5em;
+  height: 10.2em;
+  opacity: 0.8;
+  padding: 12px;
+} 
+
+
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -471,6 +494,7 @@ a {
 
 .bold {
   font-weight: bold;
+  opacity: 100%;
 }
 
 .image-section img {
@@ -710,11 +734,10 @@ footer {
   background: none;
   perspective: 2em;
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 900;
   letter-spacing: 1em;
-  border: 1px dotted white;
-
+ 
   -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
     0px 0px 0.5em 0px var(--glow-color);
   -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
@@ -724,8 +747,10 @@ footer {
   animation: border-flicker 2s linear infinite;
 }
 
+
+
 .v-two {
-  font-size: 10px;
+  font-size: 8px;
 }
 
 .glowing-txt {
@@ -770,6 +795,7 @@ footer {
   background-color: var(--glow-color);
   box-shadow: 0 0 2em 0.2em var(--glow-color);
   transition: opacity 100ms linear;
+
 }
 
 .glowing-btn:hover {
@@ -898,6 +924,6 @@ footer {
 
 @media only screen and (max-width: 600px) {
   .glowing-btn{
-    font-size: 14px;
+    font-size: 9px;
   }
 }

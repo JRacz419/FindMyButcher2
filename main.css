@@ -199,7 +199,7 @@ nav h1:hover {
     display:flex;
     align-items: center;
     border-radius: 60px;
-    padding: 10px;
+    padding: 20px;
     margin-top: 20px;
     color: white;
     opacity: 0.8;
@@ -213,7 +213,7 @@ nav h1:hover {
     display:flex;
     align-items: center;
     border-radius: 60px;
-    padding: 10px;
+    padding: 20px;
     margin-top: 20px;
     color: white;
     opacity: 0.8;
@@ -532,7 +532,7 @@ a {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
   margin: 25px auto;
-  margin-top: 3em;
+  margin-top: 8em;
 }
 .cards .single-cards {
   width: 100%;
@@ -624,7 +624,7 @@ a {
   align-self: center;
   margin-top: 1em;
   border: 3px solid  red;
-  padding: 16px;
+  padding: 20px;
   outline: none;
   font-size: 16px;
   background: transparent;
@@ -638,7 +638,7 @@ a {
     align-self: center;
     margin-top: 1em;
     border: 2px solid red;
-    padding: 6px;
+    padding: 20px;
     outline: none;
     font-size: 16px;
     background: transparent;

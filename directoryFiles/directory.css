@@ -4,4 +4,16 @@
 
 h1 {
     color:red;
+
+}
+
+
+h1:link,
+h1:visited,
+h1:active {
+    color: red;
+}
+
+h1 a:visited {
+    color: red;
 }

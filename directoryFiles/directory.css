@@ -47,7 +47,7 @@ h1 a:visited {
 /* Main Directory*/
 
 .main-directory-container {
-    height: 75em;
+    height: 85em;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -55,8 +55,23 @@ h1 a:visited {
     flex-wrap: wrap;
     padding: 12px;
     gap: 12px;
-    
 }
+
+@media (max-width: 930px) {
+    .main-directory-container {
+        height: 86em;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 12px;
+        gap: 12px;
+    }
+ 
+}
+
+
 
 .column {
     margin-top: 4em;

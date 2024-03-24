@@ -47,7 +47,7 @@ h1 a:visited {
 /* Main Directory*/
 
 .main-directory-container {
-    height: 53em;
+    height: 66em;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -83,11 +83,12 @@ h3{
 ul {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+   
     
 }
 
-li  {
+li a  {
     list-style-type: none;
+    margin-top: 18px;
     
 }

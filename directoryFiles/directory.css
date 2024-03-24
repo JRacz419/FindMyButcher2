@@ -52,6 +52,10 @@ h1 a:visited {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 12px;
+    gap: 12px;
+    
 }
 
 .column {
@@ -76,6 +80,14 @@ h3{
     flex-direction: column;
 }
 
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
 li  {
     list-style-type: none;
+    
 }

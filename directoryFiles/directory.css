@@ -1,19 +1,49 @@
 .main-search-container {
-    margin-top: 10em;
+    margin-top: 6em;
+    background-image: url(../images/salting-meats.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.8;
+    height: 80em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media (max-width: 930px) {
+    .main-search-container  {
+     margin-top: 10em;
+ }
+}
+.main-search-container h2 {
+    margin-top: 1em;
+    height: 6em;
+}
+@media (max-width: 930px) {
+    .main-search-container h2 {
+    margin-top: 14em;
+    height: 15em;
+    font-size: 20px;
+ }
 }
 
 h1 {
     color:red;
-
 }
-
-
 h1:link,
 h1:visited,
 h1:active {
     color: red;
 }
-
 h1 a:visited {
     color: red;
 }
+
+.directory-container {
+    height: 53em;
+    background-color: white;
+}
+
+.search-bar {
+    margin-top: 3em;
+}
+

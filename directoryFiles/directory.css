@@ -71,5 +71,6 @@ h3{
     margin-top: 1em;
 }
 
-
-
+li  {
+    list-style-type: none;
+}

@@ -1,3 +1,5 @@
+/* Main Search */
+
 .main-search-container {
     margin-top: 6em;
     background-image: url(../images/salting-meats.jpg) ;
@@ -56,8 +58,17 @@ h1 a:visited {
     margin-top: 4em;
 }
 
-h3 {
+h3{
+  background-color: white;
+  text-align: center;
+  padding: 4em;
+  height: 1em;
+  font-size: 20px;
+}
+
+h4 {
     border-bottom: 1px solid red;
+    margin-top: 1em;
 }
 
 

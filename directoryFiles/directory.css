@@ -38,12 +38,27 @@ h1 a:visited {
     color: red;
 }
 
-.directory-container {
-    height: 53em;
-    background-color: white;
-}
-
 .search-bar {
     margin-top: 3em;
 }
+
+/* Main Directory*/
+
+.main-directory-container {
+    height: 53em;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.column {
+    margin-top: 4em;
+}
+
+h3 {
+    border-bottom: 1px solid red;
+}
+
+
 

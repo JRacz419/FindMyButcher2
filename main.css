@@ -758,3 +758,73 @@ footer {
     margin-top: 1em;
   }
 }
+
+
+
+/*test*/
+
+/* Main Directory*/
+
+.main-directory-container {
+  height: 85em;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 12px;
+  gap: 12px;
+  opacity: 0.98;
+}
+
+@media (max-width: 930px) {
+  .main-directory-container {
+      height: 86em;
+      background-color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      padding: 12px;
+      gap: 12px;
+  }
+
+}
+
+
+
+.column {
+  margin-top: 4em;
+}
+
+h3{
+  background-color: white;
+  padding: 1em;
+  height: 6px;
+  font-size: 26px;
+  text-align: center;
+  opacity: 0.98;
+}
+
+.column h4 {
+  border-bottom: 1px solid red;
+  margin-top: 1em;
+}
+
+.state-name {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+ 
+  
+}
+
+li a  {
+  list-style-type: none;
+  margin-top: 18px;
+  
+}

@@ -17,8 +17,8 @@
  }
 }
 .main-search-container h2 {
-    margin-top: 1em;
-    height: 6em;
+    margin: 1em;
+    heig-topht: 6em;
 }
 @media (max-width: 930px) {
     .main-search-container h2 {

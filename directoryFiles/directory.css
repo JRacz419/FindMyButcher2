@@ -71,6 +71,11 @@ h3{
     margin-top: 1em;
 }
 
+.state-name {
+    display: flex;
+    flex-direction: column;
+}
+
 li  {
     list-style-type: none;
 }

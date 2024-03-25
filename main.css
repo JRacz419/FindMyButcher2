@@ -182,7 +182,7 @@ nav h1:hover {
  }
  @media (max-width: 930px) {
   h2 {
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 10px;
   }
  }
@@ -214,7 +214,7 @@ nav h1:hover {
     align-items: center;
     border-radius: 60px;
     padding: 20px;
-    margin-top: 4em;
+    margin-top: 20px;
     color: white;
     opacity: 0.8;
     }
@@ -435,8 +435,6 @@ a {
   font-size: 16px;
   margin-top: 3em;
 }
-
-
 .card-paragraph1 {
   font-size: 14px;
   color: white;
@@ -445,7 +443,6 @@ a {
   opacity: 0.8;
   font-family: 'Times New Roman', Times, serif;
 } 
-
 .card-paragraph2 {
   font-size: 14px;
   color: white;
@@ -454,7 +451,6 @@ a {
   opacity: 0.8;
   font-family: 'Times New Roman', Times, serif;
 } 
-
 .card-paragraph3 {
   font-size: 14px;
   color: white;
@@ -463,7 +459,6 @@ a {
   opacity: 0.8;
   font-family: 'Times New Roman', Times, serif;
 } 
-
 .button3,
 .button2,
 .button1 {
@@ -475,10 +470,8 @@ a {
   opacity: 0.8;
   border-radius: 16px;
   cursor: pointer;
-
   margin-top: 40px;
 }
-
 @media (max-width: 1440px) {
   .button1,
   .button2,
@@ -486,7 +479,6 @@ a {
     margin-top: 110px;
   }
 }
-
 @media (max-width: 1100px) {
   .button1 {
     margin-top: 180px;
@@ -502,13 +494,11 @@ a {
     margin-top: 110px;
   }
 }
-
 @media (max-width: 650px) {
   .button3 {
     margin-top: 80px;
   }
 }
-
 .button1:hover {
   background-color: transparent;
   border: 2px solid red;
@@ -519,7 +509,6 @@ a {
   border-radius: 16px;
   cursor: pointer;
 }
-
 .button2:hover {
   background-color: transparent;
   border: 2px solid red;
@@ -530,7 +519,6 @@ a {
   border-radius: 16px;
   cursor: pointer;
 }
-
 .button3:hover {
   background-color: transparent;
   border: 2px solid red;
@@ -541,10 +529,6 @@ a {
   border-radius: 16px;
   cursor: pointer;
 }
-
-
-
-
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -557,12 +541,10 @@ a {
   position: relative;
   
 }
-
 .bold {
   font-weight: bold;
   opacity: 100%;
 }
-
 .image-section img {
   width: 100%;
   height: 330px;
@@ -819,12 +801,12 @@ h3{
 ul {
   display: flex;
   flex-direction: column;
- 
-  
+
+
 }
 
 li a  {
   list-style-type: none;
   margin-top: 18px;
-  
+
 }

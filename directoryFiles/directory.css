@@ -1,5 +1,4 @@
 /* Main Search */
-
 .main-search-container {
     margin-top: 6em;
     background-image: url(../images/salting-meats.jpg) ;
@@ -17,8 +16,9 @@
  }
 }
 .main-search-container h2 {
-    margin: 1em;
-    heig-topht: 6em;
+    margin-top: 1em;
+    height: 6em;
+   
 }
 @media (max-width: 930px) {
     .main-search-container h2 {
@@ -27,7 +27,6 @@
     font-size: 30px;
  }
 }
-
 h1 {
     color:red;
 }
@@ -39,13 +38,10 @@ h1:active {
 h1 a:visited {
     color: red;
 }
-
 .search-bar {
     margin-top: 3em;
 }
-
 /* Main Directory*/
-
 .main-directory-container {
     height: 85em;
     background-color: white;
@@ -57,7 +53,6 @@ h1 a:visited {
     gap: 12px;
     opacity: 0.98;
 }
-
 @media (max-width: 930px) {
     .main-directory-container {
         height: 86em;
@@ -71,13 +66,9 @@ h1 a:visited {
     }
  
 }
-
-
-
 .column {
     margin-top: 4em;
 }
-
 h3{
     background-color: white;
     padding: 1em;
@@ -86,24 +77,20 @@ h3{
     text-align: center;
     opacity: 0.98;
 }
-
 .column h4 {
     border-bottom: 1px solid red;
     margin-top: 1em;
 }
-
 .state-name {
     display: flex;
     flex-direction: column;
 }
-
 ul {
     display: flex;
     flex-direction: column;
    
     
 }
-
 li a  {
     list-style-type: none;
     margin-top: 18px;

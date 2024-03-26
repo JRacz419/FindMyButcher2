@@ -779,6 +779,10 @@ footer {
   margin-top: 4em;
 }
 
+.column-container {
+  border: 1px solid green;
+}
+
 h3{
   background-color: white;
   padding: 1em;

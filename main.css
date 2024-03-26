@@ -442,6 +442,7 @@ a {
   height: 10em;
   opacity: 0.8;
   font-family: 'Times New Roman', Times, serif;
+  line-height: 22px;
 } 
 .card-paragraph2 {
   font-size: 14px;
@@ -450,6 +451,7 @@ a {
   height: 10.1em;
   opacity: 0.8;
   font-family: 'Times New Roman', Times, serif;
+  line-height: 22px;
 } 
 .card-paragraph3 {
   font-size: 14px;
@@ -458,6 +460,7 @@ a {
   height: 10.2em;
   opacity: 0.8;
   font-family: 'Times New Roman', Times, serif;
+  line-height: 22px;
 } 
 .button3,
 .button2,
@@ -748,7 +751,7 @@ footer {
 /* Main Directory*/
 
 .main-directory-container {
-  height: 85em;
+  height: 70em;
   background-color: white;
   display: flex;
   flex-direction: row;
@@ -757,6 +760,7 @@ footer {
   padding: 12px;
   gap: 12px;
   opacity: 0.98;
+  width: 100%;
 }
 
 @media (max-width: 930px) {
@@ -769,19 +773,38 @@ footer {
       flex-wrap: wrap;
       padding: 12px;
       gap: 12px;
+      
   }
 
 }
 
-
-
-.column {
-  margin-top: 4em;
-}
-
 .column-container {
-  border: 1px solid green;
+  display: flex;
+  padding: 12px;
+  height: 800px;
+  width: 100%;
+  background-color: transparent;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  
 }
+
+@media (max-width: 930px) {
+  .column-container {
+    display: flex;
+    padding: 12px;
+    height: 80em;
+    width: 100%;
+    background-color: transparent;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+  }
+
+}
+
 
 h3{
   background-color: white;
@@ -790,27 +813,37 @@ h3{
   font-size: 26px;
   text-align: center;
   opacity: 0.98;
-}
-
-.column h4 {
-  border-bottom: 1px solid red;
-  margin-top: 1em;
-}
-
-.state-name {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-ul {
+
+
+
+
+#myUL {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 20em;
+  gap: 28px;
+  
+  margin-top: 100px;
+  width: 54em;
+
+ 
+  
 
 
 }
 
-li a  {
+
+
+
+li {
   list-style-type: none;
-  margin-top: 18px;
-
+  line-height: 40px;
+  display: flex;
+  flex-wrap: wrap;
 }

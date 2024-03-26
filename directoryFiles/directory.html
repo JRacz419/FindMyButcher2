@@ -45,12 +45,15 @@
 	</header>  
     <div class="main-search-container">
         <h2>
-          Find Local<br><span class="red-meat-text"><br>BUTCHERS</span><span>
+
+          Find Local<br><span class="red-meat-text">BUTCHERS</span><span>
             
-            <form action="#" href="../directoryFiles/directory.html" methods="get" class="search-bar">
-                <input type="text" placeholder="State" name="find" id="find" onkeyup="search()">
+            <form action="" href="" methods="" class="search-bar">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search by State">
             </form>
+
             <button type="search" class="button-29" id="main-search-button">Search</button>
+
         </h2>
         
         
@@ -58,83 +61,92 @@
     <h3>Select a State</h3>
 
     <section class="main-directory-container">
+
         <div class="column-container">
-            <div class="column">
-                <ul>
- 
-                    <li class="state-name"><a href="#">Alaska</a></li>
-                    <li class="state-name"><a href="#">Arizona</a></li>
-                    <li class="state-name"><a href="#">Arkansas</a></li>
-                    <li class="state-name"><a href="#">California</a></li>
-                    <li class="state-name"><a href="#">Colorado</a></li>
-                    <li class="state-name"><a href="#">Connecticut</a></li>
-                    <li class="state-name"><a href="#">Delaware</a></li>
-                    <li class="state-name"><a href="#">District of Columbia</a></li>
-                    <li class="state-name"><a href="#">Florida</a></li>
-                    <li class="state-name"><a href="#">Georgia</a></li>
-                    <li class="state-name"><a href="#">Hawaii</a></li>
-                    <li class="state-name"><a href="#">Idaho</a></li>
-                   
-                </ul>
-            </div>
-            <div class="column">
-                <ul>
-                    <li class="state-name"><a href="#">Illinois</a></li>
-                    <li class="state-name"><a href="#">Indiana</a></li>
-                    <li class="state-name"><a href="#">Iowa</a></li>
-                    <li class="state-name"><a href="#">Kansas</a></li>
-                    <li class="state-name"><a href="#">Kentucky</a></li>
-                    <li class="state-name"><a href="#">Lousiana</a></li>
-                    <li class="state-name"><a href="#">Maine</a></li>
-                    <li class="state-name"><a href="#">Maryland</a></li>
-                    <li class="state-name"><a href="#">Massachusetts</a></li>
-                    <li class="state-name"><a href="#">Michigan</a></li>
-                    <li class="state-name"><a href="#">Minnesota</a></li>
-                    <li class="state-name"><a href="#">Mississippi</a></li>
-                    <li class="state-name"><a href="#">Missouri</a></li>
+  
+            
+  
+                <ul id="myUL">
+  
+                  <li><a href="#">Alaska</a></li>
+                  <li><a href="#">Arizona</a></li>
+                  <li><a href="#">Arkansas</a></li>
+                  <li><a href="#">California</a></li>
+                  <li><a href="#">Colorado</a></li>
+                  <li><a href="#">Connecticut</a></li>
+                  <li><a href="#">Delaware</a></li>
+                  <li><a href="#">District of Columbia</a></li>
+                  <li><a href="#">Florida</a></li>
+                  <li><a href="#">Georgia</a></li>
+                  <li><a href="#">Hawaii</a></li>
+                  <li><a href="#">Idaho</a></li>
+                  <li><a href="#">Illinois</a></li>
+                
+            
+  
+            
+                  
+                  <li><a href="#">Indiana</a></li>
+                  <li><a href="#">Iowa</a></li>
+                  <li><a href="#">Kansas</a></li>
+                  <li><a href="#">Kentucky</a></li>
+                  <li><a href="#">Lousiana</a></li>
+                  <li><a href="#">Maine</a></li>
+                  <li><a href="#">Maryland</a></li>
+                  <li><a href="#">Massachusetts</a></li>
+                  <li><a href="#">Michigan</a></li>
+                  <li><a href="#">Minnesota</a></li>
+                  <li><a href="#">Mississippi</a></li>
+                  <li><a href="#">Missouri</a></li>
+                  <li><a href="#">Montana</a></li>
+                
+              
+        
+  
+        
+            
+  
+               
                     
-             </ul>
-            </div>
+                    <li><a href="#">Nebraska</a>
+                    <li><a href="#">Nevada</a></li>
+                    <li><a href="#">New Hampshire</a></li>
+                    <li><a href="#">New Jersey</a></li>
+                    <li><a href="#">New Mexico</a></li>
+                    <li><a href="#">New York</a></li>
+                    <li><a href="#">North Carolina</a></li>
+                    <li><a href="#">North Dakota</a></li>
+                    <li><a href="#">Ohio</a></li>
+                    <li><a href="#">Oklahoma</a></li>
+                    <li><a href="#">Oregon</a></li>
+                    <li><a href="#">Pennsylvania</a></li>
+                    <li><a href="#">Rhode Island</a></li>
+                    
+               
+           
+  
+                
+                    
+                  <li><a href="#">South Carolina</a>
+                  <li><a href="#">South Dakota</a></li>
+                  <li><a href="#">Tennessee</a></li>
+                  <li><a href="#">Texas</a></li>
+                  <li><a href="#">Utah</a></li>
+                  <li><a href="#">Vermont</a></li>
+                  <li><a href="#">Virginia</a></li>
+                  <li><a href="#">Washington</a></li>
+                  <li><a href="#">West Virginia</a</li>
+                  <li><a href="#">Wisconsin</a></li>
+                  <li><a href="#">Wyoming</a></li>
+                    
+                </ul>
+  
+            
+  
         </div>
-        <div class="column-container">
-            <div class="column">
-                <ul>
-                    <li class="state-name"><a href="#">Montana</a></li>
-                    <li class="state-name"><a href="#">Nebraska</a>
-                    <li class="state-name"><a href="#">Nevada</a></li>
-                    <li class="state-name"><a href="#">New Hampshire</a></li>
-                    <li class="state-name"><a href="#">New Jersey</a></li>
-                    <li class="state-name"><a href="#">New Mexico</a></li>
-                    <li class="state-name"><a href="#">New York</a></li>
-                    <li class="state-name"><a href="#">North Carolina</a></li>
-                    <li class="state-name"><a href="#">North Dakota</a></li>
-                    <li class="state-name"><a href="#">Ohio</a></li>
-                    <li class="state-name"><a href="#">Oklahoma</a></li>
-                    <li class="state-name"><a href="#">Oregon</a></li>
-                    <li class="state-name"><a href="#">Pennsylvania</a></li>
-                    
-                    
-                </ul>
-            </div>
-            <div class="column">
-                <ul>
-                    <li class="state-name"><a href="#">Rhode Island</a></li>
-                    <li class="state-name"><a href="#">South Carolina</a>
-                    <li class="state-name"><a href="#">South Dakota</a></li>
-                    <li class="state-name"><a href="#">Tennessee</a></li>
-                    <li class="state-name"><a href="#">Texas</a></li>
-                    <li class="state-name"><a href="#">Utah</a></li>
-                    <li class="state-name"><a href="#">Vermont</a></li>
-                    <li class="state-name"><a href="#">Virginia</a></li>
-                    <li class="state-name"><a href="#">Washington</a></li>
-                    <li class="state-name"><a href="#">West Virginia</a</li>
-                    <li class="state-name"><a href="#">Wisconsin</a></li>
-                    <li class="state-name"><a href="#">Wyoming</a></li>
-                    
-                </ul>
-            </div>
-        </div>
-    </section>
+  
+      </section>
+  
 
 
     <footer>

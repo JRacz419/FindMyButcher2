@@ -69,13 +69,14 @@ h1 a:visited {
 .column {
     margin-top: 4em;
 }
-h3{
+h3 {
     background-color: white;
     padding: 1em;
     height: 6px;
     font-size: 26px;
     text-align: center;
     opacity: 0.98;
+    
 }
 .column h4 {
     border-bottom: 1px solid red;

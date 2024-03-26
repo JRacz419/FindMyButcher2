@@ -1,4 +1,47 @@
 /* Main Search */
+/* Main Search */
+
+.main-search-container {
+    margin-top: 4em;
+    background-image: url(../images/salting-meats.jpg) ;
+    width: 100%;
+    background-size: cover;
+}
+
+@media (max-width: 930px) {
+    .main-search-container {
+        margin-top: 4em;
+        background-image: url(../images/salting-meats.jpg) ;
+        width: 100%;
+        background-size: cover;
+    }
+  
+  }
+
+
+
+.main-search-container h2 {
+    
+    margin-top: 1em;
+    height: 4em;
+
+}
+
+@media (max-width: 930px) {
+    .main-search-container h2 {
+    
+        margin-top: 2em;
+        height: 4em;
+    
+    }
+  
+  }
+
+
+
+
+
+
 
 h1 {
     color:red;
@@ -12,6 +55,8 @@ h1 a:visited {
     color: red;
 }
 
+
+
 .main-directory-container {
     height: 35em;
     background-color: white;
@@ -24,7 +69,6 @@ h1 a:visited {
     opacity: 0.98;
     width: 100%;
   }
-  
   @media (max-width: 930px) {
     .main-directory-container {
         height: 86em;
@@ -35,6 +79,7 @@ h1 a:visited {
         flex-wrap: wrap;
         padding: 12px;
         gap: 12px;
+        
         
     }
   
@@ -48,7 +93,7 @@ h1 a:visited {
     background-color: transparent;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 20px;
     
   }
   
@@ -61,7 +106,7 @@ h1 a:visited {
       background-color: transparent;
       justify-content: space-evenly;
       flex-wrap: wrap;
-      margin-top: 30px;
+      margin-top: 20px;
       
     }
   
@@ -71,7 +116,7 @@ h1 a:visited {
   h3{
     background-color: white;
     padding: 1em;
-    height: 6px;
+    height: 5px;
     font-size: 26px;
     text-align: center;
     opacity: 0.98;
@@ -91,7 +136,7 @@ h1 a:visited {
     height: 20em;
     gap: 28px;
     
-    margin-top: 40px;
+   
     width: 54em;
   
    

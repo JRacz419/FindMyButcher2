@@ -1,32 +1,5 @@
 /* Main Search */
-.main-search-container {
-    margin-top: 6em;
-    background-image: url(../images/salting-meats.jpg) ;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    opacity: 0.8;
-    height: 80em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-@media (max-width: 930px) {
-    .main-search-container  {
-     margin-top: 10em;
- }
-}
-.main-search-container h2 {
-    margin-top: 1em;
-    height: 6em;
-   
-}
-@media (max-width: 930px) {
-    .main-search-container h2 {
-    margin-top: 6.7em;
-    height: 11em;
-    font-size: 30px;
- }
-}
+
 h1 {
     color:red;
 }
@@ -38,12 +11,9 @@ h1:active {
 h1 a:visited {
     color: red;
 }
-.search-bar {
-    margin-top: 3em;
-}
-/* Main Directory*/
+
 .main-directory-container {
-    height: 85em;
+    height: 35em;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -52,8 +22,10 @@ h1 a:visited {
     padding: 12px;
     gap: 12px;
     opacity: 0.98;
-}
-@media (max-width: 930px) {
+    width: 100%;
+  }
+  
+  @media (max-width: 930px) {
     .main-directory-container {
         height: 86em;
         background-color: white;
@@ -63,32 +35,77 @@ h1 a:visited {
         flex-wrap: wrap;
         padding: 12px;
         gap: 12px;
+        
     }
- 
-}
-
-h3 {
+  
+  }
+  
+  .column-container {
+    display: flex;
+    padding: 12px;
+    height: 800px;
+    width: 100%;
+    background-color: transparent;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+  }
+  
+  @media (max-width: 930px) {
+    .column-container {
+      display: flex;
+      padding: 12px;
+      height: 80em;
+      width: 100%;
+      background-color: transparent;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      
+    }
+  
+  }
+  
+  
+  h3{
     background-color: white;
     padding: 1em;
     height: 6px;
     font-size: 26px;
     text-align: center;
     opacity: 0.98;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  
+  
+  
+  #myUL {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 20em;
+    gap: 28px;
     
-}
-
-.state-name {
-    display: flex;
-    flex-direction: column;
-}
-ul {
-    display: flex;
-    flex-direction: column;
+    margin-top: 40px;
+    width: 54em;
+  
    
     
-}
-li a  {
+  
+  
+  }
+  
+  
+  
+  
+  li {
     list-style-type: none;
-    margin-top: 18px;
-    
-}
+    line-height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+  }

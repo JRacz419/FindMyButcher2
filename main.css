@@ -30,11 +30,26 @@ nav h1 {
 	padding-right: calc(1rem - 5px);
   color: red;
   display: inline;
-  font-size: 47px;
+  font-size: 30px;
   opacity: 95%;
   font-weight: bold;
   opacity: 0.8;
 }
+
+@media (max-width: 930px) {
+  nav h1 {
+    letter-spacing: 5px;
+    padding: 0.5rem 1rem;
+    padding-right: calc(1rem - 5px);
+    color: red;
+    display: inline;
+    font-size: 20px;
+    opacity: 95%;
+    font-weight: bold;
+    opacity: 0.8;
+  }
+}
+
 nav h1:hover {
 	opacity:1;
 }
@@ -144,7 +159,7 @@ nav h1:hover {
 }
 @media (max-width: 930px) {
   .hero-container {
-  height: 20rem;
+  height: 12rem;
   display: flex;
   flex-direction: column;
   font-size: 40px;
@@ -198,7 +213,7 @@ nav h1:hover {
  @media (max-width: 930px) {
   h2 {
     font-size: 50px;
-    margin-top: 1.5em;
+    margin-top: .5em;
   }
  }
  .red-meat-text {
@@ -674,7 +689,7 @@ a {
 }
 /* Footer */
 footer {
-  margin-top: 20em;
+  margin-top: 10em;
 }
 .footer-container {
   background-color: black;
@@ -741,7 +756,7 @@ footer {
 }
 @media (max-width: 600px) {
   footer {
-    margin-top: 20em;
+    margin-top: 10em;
   }
   footer .footer-row {
     flex-direction: column;
@@ -847,6 +862,7 @@ h3{
   
   margin-top: 40px;
   width: 54em;
+  justify-content: space-between;
 
  
   

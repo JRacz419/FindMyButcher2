@@ -1,17 +1,20 @@
 /* Main Search */
 /* Main Search */
 
-.main-search-container {
-    margin-top: 4em;
-    background-image: url(../images/salting-meats.jpg) ;
+.main-search-containerDir {
+    margin-top: 10em;
+    background-image: none;
     width: 100%;
     background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 @media (max-width: 930px) {
-    .main-search-container {
+    .main-search-containerDir {
         margin-top: 4em;
-        background-image: url(../images/salting-meats.jpg) ;
+        background-image: none;
         width: 100%;
        
     }
@@ -20,28 +23,21 @@
 
 
 
-.main-search-container h2 {
-    
+.main-search-containerDir h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 1em;
     height: 4em;
-
 }
 
 @media (max-width: 930px) {
-    .main-search-container h2 {
-    
-        margin-top: 2em;
+    .main-search-containerDir h2 {
+        margin-top: 1em;
         height: 4em;
-    
     }
-  
   }
-
-
-
-
-
-
 
 h1 {
     color:red;
@@ -54,6 +50,7 @@ h1:active {
 h1 a:visited {
     color: red;
 }
+
 
 
 
@@ -71,7 +68,7 @@ h1 a:visited {
   }
   @media (max-width: 930px) {
     .main-directory-container {
-        height: 86em;
+        height: 75em;
         background-color: white;
         display: flex;
         flex-direction: row;
@@ -79,10 +76,7 @@ h1 a:visited {
         flex-wrap: wrap;
         padding: 12px;
         gap: 12px;
-        
-        
     }
-  
   }
   
   .column-container {

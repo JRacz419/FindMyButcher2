@@ -795,7 +795,7 @@ footer {
 
 @media (max-width: 930px) {
   .main-directory-container {
-      height: 86em;
+      height: 76em;
       background-color: white;
       display: flex;
       flex-direction: row;
@@ -803,6 +803,7 @@ footer {
       flex-wrap: wrap;
       padding: 12px;
       gap: 12px;
+      margin-top: 5em;
       
   }
 

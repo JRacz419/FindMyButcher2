@@ -68,7 +68,7 @@ h1 a:visited {
   }
   @media (max-width: 930px) {
     .main-directory-container {
-        height: 75em;
+        height: 70em;
         background-color: white;
         display: flex;
         flex-direction: row;

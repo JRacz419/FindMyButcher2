@@ -470,27 +470,24 @@ a {
   color: white;
   margin-top: 3em;
   height: 10em;
-  opacity: 0.8;
   font-family: 'Times New Roman', Times, serif;
-  line-height: 22px;
+  line-height: 26px;
 } 
 .card-paragraph2 {
   font-size: 14px;
   color: white;
   margin-top: 12px;
-  height: 10.1em;
-  opacity: 0.8;
+  height: 10em;
   font-family: 'Times New Roman', Times, serif;
-  line-height: 22px;
+  line-height: 26px;
 } 
 .card-paragraph3 {
   font-size: 14px;
   color: white;
   margin-top: 2.5em;
-  height: 10.2em;
-  opacity: 0.8;
+  height: 10em;
   font-family: 'Times New Roman', Times, serif;
-  line-height: 22px;
+  line-height: 26px;
 } 
 .button3,
 .button2,
@@ -532,6 +529,14 @@ a {
     margin-top: 80px;
   }
 }
+
+@media (max-width: 450px) {
+  .button1,
+  .button3 {
+    margin-top: 155px;
+  }
+}
+
 .button1:hover {
   background-color: transparent;
   border: 2px solid red;
@@ -607,14 +612,7 @@ a {
   background-color: #3a706a;
   padding: 8px 15px;
 }
-.posted-date {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  background-color: #ada62b;
-  padding: 6px 15px;
-}
+
 @media screen and (max-width: 992px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
@@ -776,7 +774,7 @@ footer {
 
 
 
-/*test*/
+
 
 /* Main Directory*/
 
